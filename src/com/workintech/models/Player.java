@@ -1,8 +1,10 @@
+package com.workintech.models;
+
 public class Player
 {
-    String name;
-    int healthPercentage;
-    Weapon weapon;
+     private String name;
+    private int healthPercentage;
+     private Weapon weapon;
 
     public enum Weapon {
         Sword,Axe,Bow,Staff
